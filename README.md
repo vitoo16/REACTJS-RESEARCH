@@ -176,5 +176,3 @@ const ThemeContext = createContext("light");
 
 ---
 
-## Lời kết
-React không chỉ là một công cụ phát triển giao diện, mà còn là một cách tư duy mới mẻ trong lập trình web. Hiểu rõ lý thuyết và áp dụng thực tế sẽ giúp bạn xây dựng được các ứng dụng mạnh mẽ và hiệu quả hơn.
