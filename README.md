@@ -96,6 +96,22 @@ useEffect(() => {
 ```
 
 ---
+### Gọi API bằng fetch hoặc axios
+```jsx
+import { useEffect, useState } from "react";
+import axios from "axios";
+
+function FetchData() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    axios.get("https://api.example.com/data")
+      .then(response => setData(response.data));
+  }, []);
+
+  return <div>{JSON.stringify(data)}</div>;
+}
+```
 
 ## 6. List & Key
 ### Duyệt mảng với `.map()`
